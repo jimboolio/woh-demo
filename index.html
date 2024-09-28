@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
     <link rel="stylesheet" href="./same.css">
 </head>
+
 <body>
-    <div class="header">
-        <nav>
-            <a href="./index.html"><button>Home</button></a>
-            <a href="./cv.html"><button>Cv</button></a>
-            <a href="./hobbies.html"><button>Hobbies</button></a>
-            <a href="./contact.html"><button>Contact</button></a>
-        </nav>
-    </div>
-
-    <article>
-        <h1>Index</h1>
-        <h2>Jimi Viita-aho</h2>
-        <picture>
-            <!-- Having a srcset here serves no purpose -->
-            <img src="./rat.jpg" alt="">
-        </picture>
-        <div class="box">
-            <h3>Socials</h3>
-            <p><a href="mailto:example@example.com">Send me an email</a></p>
-            <p><a href="https://www.openstreetmap.org/user/JimboFinland">Follow me on the streets</a></p>
-            <p><a href="https://codeberg.org/jimbo">Follow me virtually</a></p>
+    <div id="content">
+        <div class="header">
+            <nav>
+                <a href="./index.html"><button>Home</button></a>
+                <a href="./cv.html"><button>Cv</button></a>
+                <a href="./hobbies.html"><button>Hobbies</button></a>
+                <a href="./contact.html"><button>Contact</button></a>
+            </nav>
         </div>
-        <p>
-            Hello world! I am definitely a person with real physical presence. My idol is Miicat 🐱 
-            I also love horses and my favourite programming language is horse64, check it out here: 
-            <a href="https://horse64.org/">https://horse64.org/</a>
-        </p>
-    </article>
 
+        <article>
+            <h1>Index</h1>
+            <h2>Jimi Viita-aho</h2>
+            <picture>
+                <!-- Having a srcset here serves no purpose -->
+                <img id="rat" src="./rat.jpg" alt="">
+            </picture>
+            <div class="box">
+                <h3>Socials</h3>
+                <p><a href="mailto:example@example.com">Send me an email</a></p>
+                <p><a href="https://www.openstreetmap.org/user/JimboFinland">Follow me on the streets</a></p>
+                <p><a href="https://codeberg.org/jimbo">Follow me virtually</a></p>
+            </div>
+            <p>
+                Hello world! I am definitely a person with real physical presence. My idol is Miicat 🐱
+                I also love horses and my favourite programming language is horse64, check it out here:
+                <a href="https://horse64.org/">https://horse64.org/</a>
+            </p>
+        </article>
+    </div>
+    <footer>
+        <div id="left">
+            <p>Thank you for visiting my website</p>
+        </div>
+        <div id="center">
+            <p>See you again soon</p>
+        </div>
+        <div id="right">
+            <p>Remember to contact me <a href="./contact.html">here</a>.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

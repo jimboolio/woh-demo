@@ -1,0 +1,48 @@
+Changelog since last excercise and the reasoning of decisions
+
+Added "Simple CSS"
+    Simple css aims to provide basic styling for semantic html.
+    I personally believe that having readable web is more important
+    than having a fancy looking web. Why bother with excessive styling
+    if as a result you risk of breaking the built in accessibility features
+    of web browsers and operating systems, which function the best with as
+    vanilla html5 as possible. Styling should improve usability and
+    simple css does that really well.
+
+###############
+Addition of responsive styling below
+made the page responsive using css grid and flexbox, because those
+are bloat free and modern bootstrap utilizes those in the background.
+And if good examples are followed I feel like when understanding them
+it is actually easier to manage a website rather than fighting with overrides
+which are bad practise.
+###############
+
+Added responsive navbar with flexbox
+    The navbar is basic but the elements wrap up to smaller screens
+    as necessary.
+
+Added footer and made it responsive with css grid
+    I noticed that in the example materials the website had a footer
+    and since the contents of my website article section aka. the main content
+    did not really need additional responsive components I made some footer
+    elements with css grid, which wraps up nicely with a simple media query
+    containing styles for smaller devices.
+
+Moved the default for simple css body grid to smaller scope div>#content
+    That one is used for whole page margins, but since the footer
+    was supposed to span all accross the bottom of the page, this was necessary.
+
+Set border radius in css variable
+    done to get up to 5 new css rules
+
+Set index image to full width
+    Who doesn't enjoy zoomed in naked rats?
+    done to get up to 5 new css rules
+
+Overridden simple css anchor color and anchor:visited pseudo class color
+    so that the text in the link would be readable in dark background
+    done to get up to 5 new css rules
+
+Probably some others, but without git it's pretty hard to keep track
+of them :).
