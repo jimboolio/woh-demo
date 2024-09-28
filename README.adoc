@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: © 2024 Jimi Viita-aho
 // SPDX-License-Identifier: MIT
-= Hello World
+= Hello World jimiv
 
 [link=https://api.reuse.software/info/github.com/jimboolio/woh-demo]
 image::https://api.reuse.software/badge/github.com/jimboolio/woh-demo[REUSE status]
