@@ -1,0 +1,33 @@
+body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgb(214, 226, 228);
+}
+
+article {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+article {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+nav button {
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font-size: larger;
+}
